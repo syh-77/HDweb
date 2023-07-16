@@ -31,5 +31,6 @@
    <hr>
    <%=printMultiTable1()%>
    <br>
+<a herf="/learn">Learn Servlet</a>
 </body>
 </html>
