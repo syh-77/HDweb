@@ -5,6 +5,12 @@ public class UserModel {
     public int passward;
     public String  usernName;
 
+    public UserModel(int userid, int passward, String usernName) {
+        this.userid = userid;
+        this.passward = passward;
+        this.usernName = usernName;
+    }
+
     public int getUserid() {
         return userid;
     }

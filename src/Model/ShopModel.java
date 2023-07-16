@@ -6,6 +6,13 @@ public class ShopModel {
     public int number;
     public int price;
 
+    public ShopModel(int pid, String showTxt, int number, int price) {
+        this.pid = pid;
+        this.showTxt = showTxt;
+        this.number = number;
+        this.price = price;
+    }
+
     public int getPid() {
         return pid;
     }
